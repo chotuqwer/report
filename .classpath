@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/commons-compress-1.22.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/poi-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/javax.activation-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/Downloads/javax.mail-1.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Lokesh/AppData/Local/Microsoft/Windows/INetCache/IE/X66QWW5S/mysql-connector-j-8.2.0[1].jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
