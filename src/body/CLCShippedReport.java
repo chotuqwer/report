@@ -79,6 +79,8 @@ public class CLCShippedReport {
 				xlsStream.close();
 				
 				System.out.println("excel completed");
+				
+				System.out.println("excel completed");
 			}
             sendEmailWithAttachment("CLCData.xlsx", connectini);
 
