@@ -3,6 +3,7 @@ package body;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -43,9 +44,19 @@ public class CLCShippedReport {
         try {
             String SQL = "select * from Graph.countries";
 
-            File connectfile = new File("src/body/Config.properties");
-            Properties connectini = new Properties();
-            connectini.load(new FileInputStream(connectfile));
+            //File connectfile = new File("src/body/Config.properties");
+            //Properties connectini = new Properties();
+            //connectini.load(new FileInputStream(connectfile));
+            
+            
+         // Change this line in your code
+         // File connectfile = new File("src/body/Config.properties");
+
+         // Update it to load the properties file as a resource
+         InputStream inputStream = CLCShippedReport.class.getClassLoader().getResourceAsStream("body/config.properties");
+         Properties connectini = new Properties();
+         connectini.load(inputStream);
+
             
             // Update these properties for MySQL connection
             String mysqlUrl = connectini.getProperty("spring.datasource.url");

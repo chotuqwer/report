@@ -6,14 +6,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="src/jars/commons-collections4-4.1.jar"/>
-	<classpathentry kind="lib" path="src/jars/commons-compress-1.22.jar"/>
-	<classpathentry kind="lib" path="src/jars/javax.activation-1.2.0.jar"/>
-	<classpathentry kind="lib" path="src/jars/javax.mail-1.6.2.jar"/>
-	<classpathentry kind="lib" path="src/jars/mysql-connector-j-8.2.0.jar"/>
-	<classpathentry kind="lib" path="src/jars/poi-4.1.2.jar"/>
-	<classpathentry kind="lib" path="src/jars/poi-ooxml-4.1.2.jar"/>
-	<classpathentry kind="lib" path="src/jars/poi-ooxml-schemas-4.1.2.jar"/>
-	<classpathentry kind="lib" path="src/jars/xmlbeans-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/commons-collections4-4.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/commons-compress-1.22.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/javax.activation-1.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/javax.mail-1.6.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/mysql-connector-j-8.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/poi-4.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/poi-ooxml-4.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="src/jars/xmlbeans-3.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
